@@ -1,0 +1,3 @@
+public enum CoffeeType {
+    ESPRESSO, AMERICANO, CAPPUCCINO, LATTE, FLAT_WHITE
+}
