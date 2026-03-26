@@ -10,6 +10,6 @@ public class CarCalculator implements VehicleCalculator {
     public String calculatePrice() {
         float price = 10000 - (vehicle.getAge() * 500) - (vehicle.getMileage() / 1000);
         price -= (price * vehicle.getDamage());
-        return String.valueOf(Math.max(price, 500));
+        return String.valueOf(Math.max(price, 500)); // мінімум 500$
     }
 }
